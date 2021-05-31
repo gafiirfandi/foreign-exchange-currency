@@ -1,0 +1,37 @@
+.add-currency-box{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-currrency-button{
+  background-color: #E74584;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.add-currrency-button:hover{
+  transition: ease-in 0.1s;
+  transform: scale(1.02);
+}
+
+.add-currency-input{
+  background-color: #7070A2;
+  box-shadow: 0px 7px 27px -8px rgba(0,0,0,0.75);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-right: 20px;
+  color: white;
+}
+
+@media (max-width: 791px) {
+  .add-currency-input{
+    width: 60%;
+  }
+
+  
+}
